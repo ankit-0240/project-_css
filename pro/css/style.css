@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Noto+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10vh;
+    background-color: #2874f0;
+    color: white;
+    
+}
+nav{
+    display: flex;
+}
+nav ul{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+
+    list-style: none;
+    padding: 28px;
+   
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+   
+    font-weight: bolder;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0px 25px;
+}
+
+.search{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+.search input{
+    height: 23px;
+    width: 493px;
+    border-radius: 2px;
+    margin: 0px 112px;
+}
+
+.search-button{
+
+    display: flex;
+    align-items: center;
+    margin: 0px -111px;
+}
+
+.container{
+
+    min-height: calc(100vh - 10vh - 12vh);
+}
+
+.slider{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto;
+    
+  
+}
+.slider img{
+     height: 50vh;
+     width: 88vw;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+.card-items{
+    margin: 0 19px;
+}
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}

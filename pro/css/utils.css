@@ -1,0 +1,15 @@
+.allcenter-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-1{
+   margin: 1px 12px;
+   padding: 0px 42px;
+}
+.align-center{
+ margin: 1px 12px;
+ padding: 1px 40px;
+}
